@@ -6,6 +6,7 @@
   
 Resulting Model:
 Statistical Summary:
+
 ![linear_regression](Resources/Images/linear_regression.PNG)
 
 Vehicle length and vehicle ride height provide statistically probable non-random amounts of variation for the model. That said, vehicle length and ground clearance have a appreciable impact on the prototype MechaCar's mileage per gallon. In contrast, vehicle weight, spoiler angle, and all-wheel drive (AWD) all have p-values that do not indicate a relationable variation in the data set.
@@ -24,9 +25,11 @@ Withouth the less influential independent variables (vehicle weight, wing angle,
 The Suspension Coil data set provided by MechaCar includes weight capacity test results of multiple coils from different production lots for consistency.
 
 This is the summary of all manufacturing lots:
+
 ![Total_Summary](Resources/Images/Total_Summary.PNG)
 
 Ant here are the summary of the three lots
+
 ![Lot_Summary](Resources/Images/Lot_Summary.PNG)
 
 Provided the MechaCar suspension spool design specifications require that the suspension spool variation does not exceed 100 pounds per square inch (PSI).
@@ -41,11 +44,13 @@ Similarly, but much more consistently, batches 1 and 2 meet the 100 PSI gap requ
 The next step is to perform a test t on the coil data to determine if there is a statistical difference between the mean of this given sample dataset and a potential hypothetical population dataset. Using the assumed population average of 1500, we find the following:
 
 t.test_mecha
+
 ![t.test_Mechacoil](Resources/Images/t.test_Mechacoil.PNG)
 
 From this we can see that the true sample mean is 1498.78, which we saw in the statistics summarized above. With a p-value of 0.06, which is above the usual significance level of 0.05, there is NOT enough evidence to support rejection of the null hypothesis. In other words, the average of these three batches of production is statistically equal to the assumed population average of 1,500.
 
 t.test_lots
+
 ![t.test_lots](Resources/Images/t.test_lots.PNG)
 
 ## Study Design: MechaCar vs Competition
