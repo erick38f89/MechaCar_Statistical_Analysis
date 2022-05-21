@@ -6,6 +6,7 @@
   
 Resulting Model:
 Statistical Summary:
+![linear_regression](Resources/Images/linear_regression)
 Screenshot "linear_regression"
 
 Vehicle length and vehicle ride height provide statistically probable non-random amounts of variation for the model. That said, vehicle length and ground clearance have a appreciable impact on the prototype MechaCar's mileage per gallon. In contrast, vehicle weight, spoiler angle, and all-wheel drive (AWD) all have p-values that do not indicate a relationable variation in the data set.
